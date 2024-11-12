@@ -1,0 +1,38 @@
+// // Variable overrides second
+$primary: #FFFFFF;
+$secondary: #7D7D96;
+$enable-shadows: true;
+$prefix: "bt-";
+
+$container-max-widths: (
+  sm: 100%,
+  md: 690px,
+  lg: 930px,
+  xl: 1290px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 991px,
+  xl: 1320px,
+  xxl: 1920px
+);
+
+$grid-gutter-width: 1.5rem;
+$spacer: 1rem;
+$gutters: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  20px: 20px
+);
+$accordion-icon-color: #C270F8;
+$accordion-icon-active-color: #C270F8;
+
+$accordion-button-icon:         url('data:image/svg+xml,<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12.5H22" stroke="#{$accordion-icon-color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22.5V2.5" stroke="#{$accordion-icon-color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+$accordion-button-active-icon:  url('data:image/svg+xml,<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12.5H22" stroke="#{$accordion-icon-active-color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>');
