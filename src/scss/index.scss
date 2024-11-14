@@ -6,3 +6,21 @@
 @import "./template/base";
 @import "./template/header";
 @import "./template/footer";
+
+// ELEMENTS
+@import "./template/elements/title.scss";
+@import "./template/elements/text.scss";
+@import "./template/elements/title-group.scss";
+@import "./template/elements/buttons.scss";
+
+// SECTIONS
+@import "./template/sections/hero.scss";
+@import "./template/sections/statistic.scss";
+@import "./template/sections/technology.scss";
+@import "./template/sections/worldwide.scss";
+@import "./template/sections/ambitions.scss";
+@import "./template/sections/environment.scss";
+@import "./template/sections/account.scss";
+
+// PAGES
+@import "./template/pages/main-page.scss";

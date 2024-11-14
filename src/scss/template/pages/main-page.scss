@@ -1,0 +1,34 @@
+.main-page {
+    background-image: url(/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 1070px;
+
+    @media (max-width: 1920px) {
+        background-size: 1920px;
+    }
+
+    @media (max-width: 1320px) {
+        background-size: 1300px;
+    }
+
+    @media (max-width: 991px) {
+   
+    }
+
+    @media (max-width: 768px) {
+        background-image: url(/images/hero-bg-tablet.png);
+        background-size: 768px;
+        min-height: 1024px;
+    }
+
+    @media (max-width: 576px) {
+        background-image: url(/images/hero-bg-mobile.png);
+        background-size: 576px;
+        min-height: 1024px;
+    }
+
+    @media (max-width: 480px) {
+
+    }
+}

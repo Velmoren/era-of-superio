@@ -1,9 +1,8 @@
 .footer {
     padding-top: 100px;
     padding-bottom: 25px;
-    margin-top: 75px;
-    border-top: 1px solid #2E2E48;
-    background-color: #121126;
+    border-top: 1px solid rgb(219, 232, 238);
+    background-color: $text-white;
 
     @media (max-width: 768px) {
         padding-top: 60px;
@@ -58,10 +57,10 @@
             flex-direction: column;
 
             &--title {
-                color: var(--bt-secondary, #7D7D96);
-                font-size: 14px;
-                line-height: 20px;
-                font-weight: 500;
+                color: $text-gray;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 140%;
                 margin-bottom: 30px;
             }
 
@@ -73,14 +72,14 @@
                 li {
                     a {
                         text-decoration: none;
-                        color: var(--bt-primary, #fff);
+                        color: $text-black;
                         font-size: 16px;
-                        line-height: 22px;
-                        font-weight: 500;
+                        font-weight: 550;
+                        line-height: 130%;
                         transition: color .3s;
 
                         &:hover {
-                            color: #24EAA4;
+                            color: $primary-hovered;
                         }
                     }
                 }

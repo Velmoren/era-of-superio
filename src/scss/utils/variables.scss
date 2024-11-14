@@ -1,13 +1,22 @@
 // // Variable overrides second
-$primary: #FFFFFF;
-$secondary: #7D7D96;
+$text-white: #fdfdff;
+$text-light-blue: #bdf3ff;
+$text-dark-blue: #3a95ef;
+$text-gray: #696e7e;
+$text-black: #344455;
+
+$primary-gradient: linear-gradient(0deg, #344455 0%, #22639E 100%);
+
+$primary-hovered: $text-dark-blue;
+$secondary-hovered: $text-black;
+
 $enable-shadows: true;
-$prefix: "bt-";
+$prefix: "era-";
 
 $container-max-widths: (
   sm: 100%,
   md: 690px,
-  lg: 930px,
+  lg: 955px,
   xl: 1290px
 );
 
@@ -17,7 +26,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 991px,
   xl: 1320px,
-  xxl: 1920px
+  xxl: 1920px,
 );
 
 $grid-gutter-width: 1.5rem;
@@ -29,10 +38,9 @@ $gutters: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
-  20px: 20px
+  15px: 15px,
+  20px: 20px,
+  30px: 30px,
+  50px: 50px,
+  77px: 77px
 );
-$accordion-icon-color: #C270F8;
-$accordion-icon-active-color: #C270F8;
-
-$accordion-button-icon:         url('data:image/svg+xml,<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12.5H22" stroke="#{$accordion-icon-color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22.5V2.5" stroke="#{$accordion-icon-color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>');
-$accordion-button-active-icon:  url('data:image/svg+xml,<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12.5H22" stroke="#{$accordion-icon-active-color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>');
