@@ -5,7 +5,7 @@
     &-box {
         display: flex;
         flex-direction: column;
-        padding-top: 115px;
+        padding-top: 65px;
     }
 
     &-title {
@@ -54,7 +54,8 @@
             }
         
             &--img {
-                flex-basis: 80px;
+                width: 100%;
+                max-width: 80px;
             }
 
             &--text {
@@ -91,30 +92,53 @@
     }
 
     @media (max-width: 768px) {
+        padding-top: 40px;
         min-height: 1024px;
+
+        &-benefits {
+            margin-top: 380px;
+        }
     }
 
     @media (max-width: 576px) {
-        min-height: 1024px;
+        min-height: auto;
+
+        &-benefits {
+            &__item {
+                &--text {
+                    font-size: 14px;
+                }
+            }
+        }
     }
 
     @media (max-width: 480px) {
         &-benefits {
-            flex-direction: column;
-            width: 100%;
+            gap: 10px;
+            margin-top: 300px;
 
             &__item {
-                flex-direction: row;
-                justify-content: flex-start;
-
-                &--wrapper {
-                
+                &--img {
+                    max-width: 60px;
                 }
-
                 &--text {
-              
+                    font-size: 12px;
                 }
             }
+        }
+    }
+
+    @media (max-width: 360px) {
+        &-box {
+            padding-top: 0;
+        }
+
+        &-btn {
+            width: 100%;
+        }
+
+        &-benefits {
+            margin-top: 220px;
         }
     }
 }

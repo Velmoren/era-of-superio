@@ -49,6 +49,7 @@
 
             background-position: right bottom;
             background-size: 250px;
+            padding: 16px 45px 16px 20px;
 
             &--text {
                 max-width: 50%;
@@ -66,9 +67,11 @@
             flex-direction: column;
             background-position: center bottom;
             background-size: 300px;
+            padding: 20px;
 
             &--text {
                 max-width: 100%;
+                text-align: center;
             }
 
             &--control {

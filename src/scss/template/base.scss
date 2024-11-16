@@ -22,8 +22,18 @@ main {
 }
 
 .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    @media (max-width: 480px) {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    @media (max-width: 360px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 .--bg-dark-blue {

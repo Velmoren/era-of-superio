@@ -31,10 +31,6 @@
             border-radius: 50%;
             background: $text-light-blue;
         }
-
-        &--text {
-
-        }
     }
 
     @media (max-width: 1320px) {
@@ -42,6 +38,22 @@
             &--text {
                 font-size: 14px;
             }
+        }
+    }
+
+    @media (max-width: 480px) {
+        &__box {
+            padding: 50px 20px;
+        }
+    }
+
+    @media (max-width: 360px) {
+        &__box {
+            padding: 50px 15px;
+        }
+
+        &__btn {
+            width: 100%;
         }
     }
 }

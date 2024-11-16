@@ -29,6 +29,10 @@
     }
 
     @media (max-width: 480px) {
+        background-size: 480px;
+    }
 
+    @media (max-width: 360px) {
+        background-size: 360px;
     }
 }

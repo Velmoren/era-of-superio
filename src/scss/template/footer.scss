@@ -10,10 +10,14 @@
     }
 
     &-nav {
+        padding-bottom: 80px;
+        border-bottom: 1px solid #dbe8ee;
+
         &__main {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: flex-start;
+            gap: 20px;
         }
         
         &__social {
@@ -89,13 +93,55 @@
         &__box {
             row-gap: 50px;
         }
+
+        &__bank-list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            max-width: 280px;
+
+            &--item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 75px;
+            }
+
+            @media (max-width: 768px) {
+              max-width: 100%;
+              margin-bottom: 50px;
+              flex-wrap: nowrap;
+
+              &--item  {
+                width: auto;
+
+                img {
+                    width: 100%;
+                }
+              }
+            }
+        }
     }
 
-    &-copyright__info {
-        margin-top: 50px;
-        color: var(--bt-secondary, #7D7D96);
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 500;
+    &-copyright {
+        &--title {
+            margin-top: 25px;
+            color: $text-gray;
+            font-size: 18px;
+            line-height: 120%;
+            font-weight: 550;
+        }
+
+        &--text {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        @media (max-width: 360px) {
+            &--title {
+                font-size: 16px;
+            }
+        }
     }
 }

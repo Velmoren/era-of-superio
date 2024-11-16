@@ -32,6 +32,7 @@
         &--icon {
             width: 50px;
             height: 50px;
+            min-width: 50px;
             border-radius: 50%;
             background: radial-gradient(107% 107% at 20.65% -7%, #1BD6FF 0%, #26B0FE 100%);
             display: flex;
@@ -41,6 +42,13 @@
 
         &--title {
             margin-bottom: 5px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        &__item {
+            flex-direction: row;
+            gap: 20px;
         }
     }
 }

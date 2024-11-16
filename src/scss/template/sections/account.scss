@@ -37,10 +37,7 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: flex-start;
-
-            &--title {
-
-            }
+            
             &--step {
                 text-transform: uppercase;
             }
@@ -51,19 +48,11 @@
             display: flex;
             align-items: flex-end;
             justify-content: flex-start;
-
-            &--text {
-
-            }
         }
     }
 
     @media (max-width: 576px) {
         &__content {
-            &__title {
-   
-            }
-    
             &__img {
                 height: 230px;
                 border-radius: 30px;
@@ -73,10 +62,6 @@
 
     @media (max-width: 480px) {
         &__content {
-            &__title {
-   
-            }
-    
             &__img {
                 height: 160px;
                 border-radius: 25px;
