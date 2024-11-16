@@ -1,6 +1,8 @@
 // // Variable overrides second
 $text-white: #fdfdff;
+$text-ultra-light-blue: #e8f7ff;
 $text-light-blue: #bdf3ff;
+$text-blue: #1bd6ff;
 $text-dark-blue: #3a95ef;
 $text-gray: #696e7e;
 $text-black: #344455;
@@ -14,14 +16,17 @@ $enable-shadows: true;
 $prefix: "era-";
 
 $container-max-widths: (
-  sm: 100%,
-  md: 680px,
+  xxs: 100%,
+  xs: 100%,
+  sm: 480px,
+  md: 714px,
   lg: 930px,
   xl: 1290px
 );
 
 $grid-breakpoints: (
-  xs: 0,
+  xxs: 0,
+  xs: 480px,
   sm: 576px,
   md: 768px,
   lg: 991px,
@@ -31,6 +36,15 @@ $grid-breakpoints: (
 
 $grid-gutter-width: 1.5rem;
 $spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  28px: 28px
+);
 $gutters: (
   0: 0,
   1: $spacer * .25,
@@ -41,6 +55,7 @@ $gutters: (
   10px: 10px,
   15px: 15px,
   20px: 20px,
+  40px: 40px,
   30px: 30px,
   50px: 50px,
   77px: 77px

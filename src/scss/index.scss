@@ -12,6 +12,8 @@
 @import "./template/elements/text.scss";
 @import "./template/elements/title-group.scss";
 @import "./template/elements/buttons.scss";
+@import "./template/elements/card.scss";
+@import "./template/elements/list.scss";
 
 // SECTIONS
 @import "./template/sections/hero.scss";
@@ -21,6 +23,12 @@
 @import "./template/sections/ambitions.scss";
 @import "./template/sections/environment.scss";
 @import "./template/sections/account.scss";
+@import "./template/sections/features.scss";
+@import "./template/sections/deposits.scss";
+
+@import "./template/sections/platforms.scss";
+@import "./template/sections/seamlessly-trade.scss";
 
 // PAGES
 @import "./template/pages/main-page.scss";
+@import "./template/pages/trading-page.scss";
