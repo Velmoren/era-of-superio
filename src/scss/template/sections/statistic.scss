@@ -21,5 +21,11 @@
                 top: calc(100% / 2 - 32px);
             }
         }
+
+        &-countWrap {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
     }
 }
