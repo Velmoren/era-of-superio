@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         trading: resolve(__dirname, 'trading.html'),
+        partner: resolve(__dirname, 'partner.html'),
       },
     },
   },

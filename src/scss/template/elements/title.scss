@@ -1,8 +1,14 @@
 .title {
-    &--lg {
+    &--extra-lg {
         font-size: 90px;
         font-weight: 550;
-        line-height: 110%;
+        line-height: 100%;
+    }
+
+    &--lg {
+        font-size: 80px;
+        font-weight: 550;
+        line-height: 100%;
     }
 
     &--md {
@@ -29,9 +35,20 @@
         color: $text-black;
     }
 
+    &--gradient {
+        background: linear-gradient(0.00deg, #344455, #22639e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
     @media (max-width: 1320px) {
-        &--lg {
+        &--extra-lg {
             font-size: 70px;
+        }
+
+        &--lg {
+            font-size: 60px;
         }
     
         &--md {
@@ -44,8 +61,12 @@
     }
 
     @media (max-width: 576px) {
-        &--lg {
+        &--extra-lg {
             font-size: 60px;
+        }
+
+        &--lg {
+            font-size: 50px;
         }
     
         &--md {
@@ -54,8 +75,12 @@
     }
 
     @media (max-width: 480px) {
-        &--lg {
+        &--extra-lg {
             font-size: 44px;
+        }
+
+        &--lg {
+            font-size: 40px;
         }
     
         &--md {
